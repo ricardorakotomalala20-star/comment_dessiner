@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Academy | Apprendre le dessin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Manga<span>Draw</span></div>
+        <ul class="nav-links">
+            <li><a href="#accueil">ACCUEIL</a></li>
+            <li><a href="#base">BASE</a></li>
+            <li><a href="#apprentissage">CRÉATION</a></li>
+            <li><a href="#inscription" class="btn-reg">INSCRIPTION</a></li>
+        </ul>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Maîtrisez l'Art du Manga</h1>
+                <p>Apprenez les techniques des plus grands mangakas, du croquis à l'encrage.</p>
+                <a href="#base" class="cta-button">Commencer l'apprentissage</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="base" class="section">
+        <h2>Les Fondamentaux</h2>
+        <div class="grid-intro">
+            <div class="card"><h3>L'Anatomie</h3><p>Proportions et squelette.</p></div>
+            <div class="card"><h3>Le Storyboard</h3><p>Découpage des cases.</p></div>
+            <div class="card"><h3>L'Encrage</h3><p>Le travail au feutre noir.</p></div>
+        </div>
+    </section>
+
+    <section id="apprentissage" class="section bg-light">
+        <h2>Méthodes de Création</h2>
+        <div class="flex-container">
+            <div class="flex-row">
+                <div class="flex-image">
+                    <img src="base1.png" alt="Visage Manga">
+                </div>
+                <div class="flex-text">
+                    <h3>Étape 1 : Le Visage</h3>
+                    <p>Utilisez la méthode du cercle pour placer les yeux et la mâchoire. Le style manga privilégie de grands yeux expressifs.</p>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="flex-image">
+                    <img src="base2.png" alt="Cheveux Manga">
+                </div>
+                <div class="flex-text">
+                    <h3>Étape 2 : La Chevelure</h3>
+                    <p>Travaillez par mèches pointues pour donner cet aspect iconique et dynamique propre aux shonens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscription" class="section bg-dark">
+        <h2>Rejoindre l'école</h2>
+        <form id="regForm">
+            <input type="text" placeholder="Pseudo" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit" class="cta-button">S'inscrire</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
